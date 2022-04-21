@@ -1,0 +1,24 @@
+.portfolio-wrapper{overflow: hidden;}
+#portfolio-section{background: url(../images/bg01.jpg) no-repeat;}
+#about-section, #skills-section{background-color: #f6fbff;}
+#resume-section{background: url(../images/bg02.jpg) no-repeat; background-size: cover;}
+#contact-section{background: url(../images/bg03.jpg) no-repeat; background-size: cover; padding: 80px 0 150px;}
+.akitext h3{color: #00051d !important; font-weight: 900 !important;}
+.akitext p{color: rgba(0, 5, 29, 0.8) !important;}
+.abouttext{color: #006aa2;}
+@media (max-width: 991.98px){
+  .contact-info-v1 .contact-info-val{font-size: 19px;}
+}
+.feature-v1{height: 250px; border-radius: 50px 10px 10px 10px; padding-left: 5%; background-color: rgba(246, 251, 255, 0.3);}/* 경력사항텍스트상자 */
+.feature-v1 h3{margin: 0;}
+.wrap-icon {padding-top: 30px;}
+.edu1{background: rgba(246, 251, 255, 0.3) url(../images/edu1.png) no-repeat 102% bottom; overflow: hidden;}
+.edu2{background: rgba(246, 251, 255, 0.3) url(../images/edu2.png) no-repeat 102% bottom; overflow: hidden;}
+.edu3{background: rgba(246, 251, 255, 0.3) url(../images/edu3.png) no-repeat 102% bottom; overflow: hidden;}
+.exp1{background: rgba(246, 251, 255, 0.3) url(../images/exp1.png) no-repeat 102% 135px; overflow: hidden;}
+.exp2{background: rgba(246, 251, 255, 0.3) url(../images/exp2.png) no-repeat 105% 170px; overflow: hidden;}
+.exp3{background: rgba(246, 251, 255, 0.3) url(../images/exp3.png) no-repeat 102% 121px; overflow: hidden;}
+.lic{background: rgba(246, 251, 255, 0.3) url(../images/lic.png) no-repeat 102% bottom; overflow: hidden;}
+.cer{background: rgba(246, 251, 255, 0.3) url(../images/cer.png) no-repeat 102% bottom; overflow: hidden;}
+.site-copyright{font-family: 'Yeongdo-Rg'; color: #f6fbff; font-size: 25px;}
+.site-copyright img{display: inline-block; padding-right: 10px; transform: scale(0.8) translateY(-7px); }
