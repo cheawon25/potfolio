@@ -42,7 +42,7 @@
 /*resume*/
 #fh5co-resume{background: url(../images/resume_bg.jpg) no-repeat; background-size: cover;}
 .timeline .timeline-heading > div h3{background-color: #6d7da1; color: #e5ebf3; font-family: 'Yeongdo-Rg'; letter-spacing: 0; font-size: 30px; font-weight: normal; padding: 15px 15px 0;}
-.timeline > li > .timeline-badge{background: url(../images/moon.png) no-repeat; background-size: contain; width: 50px; height: 50px;}
+.timeline > li > .timeline-badge{background: url(../images/moon.png) no-repeat; background-size: contain; width: 50px; height: 50px; margin-left:-25px;}
 .resume_con{height: 200px; box-sizing: border-box; font-family: 'SCoreDream';}
 .resume_con_text{box-sizing: border-box;}
 .timeline-title{font-size: 22px; font-family: 'Yeongdo-Rg'; margin: 0; color: #e5ebf3;}
