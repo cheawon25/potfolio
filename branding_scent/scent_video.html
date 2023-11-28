@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCENT CONCEPT VIDEO</title>
+    <link rel="icon" href="./images/scent_pvi.png" type="image/png" sizes="32x32">
+
+    <style>
+        @font-face {
+        font-family: 'Yeongdo-Rg';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        *{padding: 0; margin: 0;}
+        a{text-decoration: none;}
+        .scent_video{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: url(./images/scent_videobg.jpg) no-repeat;
+        }
+        .scent_video div{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+        }
+        .scent_video video{width: 100%; display: block;}
+        .scent_video p{position: fixed; top: 2%; right: 2%;}
+        .scent_video a{color: #abc48d; font-family: 'Yeongdo-Rg'; font-size: 25px;}
+        .scent_video a:hover{color: #fffef8;}
+    </style>
+</head>
+<body>
+    <div class="scent_video">
+        <div>
+            <video src="./images/scent.mp4" controls preload="auto"></video>
+        </div>
+        <p><a href="../index.html#portfolio-section">Home</a></p>
+    </div>
+</body>
+</html>
