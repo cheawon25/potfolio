@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
-@font-face {
-  font-family: 'S-CoreDream-5Medium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://webfontworld.github.io/SCoreDream/SCoreDream.css');
+
 @font-face {
   font-family: 'Yeongdo-Rg';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff') format('woff');
@@ -12,7 +8,7 @@
   font-style: normal;
 }
 body {
-  font-family: 'S-CoreDream-5Medium';
+  font-family: 'SCoreDream';
   color: #f6fbff;
   font-size: 16px;
   line-height: 30px;
@@ -2186,7 +2182,7 @@ span.error {
 
 .portfolio-text{
   position: absolute;
-  top: 0;
+  top:l 0;
   right: 0;
   height: 100%;
   background-color: #e7f5ff;
