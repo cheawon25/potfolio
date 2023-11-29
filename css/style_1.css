@@ -15,7 +15,7 @@
 /*프로필*/
 .profile_img{width: 350px; transform: translateX(50%);}
 .abouttext>p{font-weight: 400;}
-.abouttext>h3{font-weight: 600;}
+.abouttext>h3{font-weight: 600; color: #002133;}
 .mail{font-weight: 500; font-family: "Arimo", sans-serif; text-transform: uppercase; font-weight: 700; font-size: 15px; color: rgba(0, 106, 162, 0.8); display: block;}
 .mail_text{color: #4e5356;}
 
