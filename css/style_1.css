@@ -54,7 +54,17 @@
 .artwork{padding: 10px; box-sizing: border-box;}
 /*팝업*/
 .popup{position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99; display: none; background-color: rgba(0, 5, 29, 0.5);}
-.img_wrap{position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 1000px;}
-.img_wrap img{width: 1000px; display: block;}
+.img_wrap{position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%;}
+.img_wrap img{width: 100%; display: block;}
+.pop2_1>.img_wrap{width: 30%;}
 .popup p{position: absolute; top: -25px; right: 0;}
 .popup p a{color: #f6fbff; font-family: 'Yeongdo-Rg'; font-size: 20px;}
+/*팝업 반응형*/
+@media(max-width:1024px)and (min-width:769px){
+  .img_wrap{width: 60%;}
+  .pop2_1>.img_wrap{width: 50%;}
+}
+@media(max-width:768px){
+  .img_wrap{width: 80%;}
+  .pop2_1>.img_wrap{width: 60%;}
+}
