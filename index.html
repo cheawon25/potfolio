@@ -517,18 +517,24 @@
           </div>
 
           <div class="item branding isotope-mb-2 col-lg-12">
-            <a href="#none" class="col-md-6 gsap-reveal-img artwork">
+            <a href="#none" class="col-md-6 gsap-reveal-img artwork pop1">
               <img src="images/differentWorld_tum.jpg" class="lazyload img-fluid" alt="Images" />
             </a>
-            <div class="popup">
+            <div class="popup pop1_1">
               <div class="img_wrap">
                 <img src="./images/differentWorld.jpg" alt="앨범아트 리디자인">
                 <p><a href="#none">Close</a></p>
               </div>
             </div>
-            <a href="#none" class="col-md-6 gsap-reveal-img artwork">
-              <img src="images/aki_tum.jpg" class="lazyload img-fluid" alt="Images" />
+            <a href="#none" class="col-md-6 gsap-reveal-img artwork pop2">
+              <img src="images/poster_tum.jpg" class="lazyload img-fluid" alt="Images" />
             </a>
+            <div class="popup pop2_1">
+              <div class="img_wrap">
+                <img src="./images/poster.jpg" alt="경복궁야간관람 포스터 리디자인">
+                <p><a href="#none">Close</a></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -614,11 +620,15 @@
           $('#filters a').not('.branding3').hide();
         });
 
-        $(".artwork").click(function(){
-          $(".popup").show();
+        $(".pop1").click(function(){
+          $(".pop1_1").show();
         });
         $(".popup a").click(function(){
           $(".popup").hide();
+        });
+
+        $(".pop2").click(function(){
+          $(".pop2_1").show();
         });
       });
     </script>
