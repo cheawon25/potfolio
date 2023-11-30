@@ -13,7 +13,8 @@
 
 .portfolio-text h2{font-weight: 800;}
 /*프로필*/
-.profile_img{width: 350px; transform: translateX(50%);}
+.profile_img{width: 100%;}
+.img-fluid{max-width: 488px; width: 100%; display: block; margin: auto;}
 .abouttext>p{font-weight: 400;}
 .abouttext>h3{font-weight: 600; color: #002133;}
 .mail{font-weight: 500; font-family: "Arimo", sans-serif; text-transform: uppercase; font-weight: 700; font-size: 15px; color: rgba(0, 106, 162, 0.8); display: block;}
